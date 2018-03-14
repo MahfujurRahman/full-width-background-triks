@@ -5,13 +5,45 @@
 }
 /* Tablet Layout: 768px. */
 @media only screen and (min-width: 768px) and (max-width: 991px) { 
- 
+    img {
+        margin-top: 20px;
+        display: flex;
+    }
     
 }
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) { 
- 
+    .athor-content h1 {
+        font-size: 30px;
+    }
+    .bg-dark {
+        padding: 30px;
+    }
+    .athor-content p {
+        font-size: 15px;
+        line-height: normal;
+    }
+    .athor-content {
+        padding: 20px;
+    }
+    .author {
+        font-size: 20px;
+        padding-left: 35px;
+    }
+    .author::before {
+        width: 25px;
+        top: 65%;
     
+    }
+    .btt {
+        font-size: 15px;
+        padding: 10px 15px;
+        width: 189px;
+        margin-bottom: 20px;
+    }
+    img{
+        display: flex;
+    }
 }
 /* Wide Mobile Layout: 480px. */
 @media only screen and (min-width: 480px) and (max-width: 767px) { 
