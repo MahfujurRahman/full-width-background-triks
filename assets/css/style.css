@@ -1,0 +1,138 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+
+a:hover { text-decoration: none }
+
+.bg-area{
+    background-image: url(../img/hero-bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.section-padding {
+    margin: 100px;
+    background: #333;
+    color: #fff;
+  }
+
+  .full-widtg {
+    margin-top: 70px;
+  }
+
+  .margin-minas {
+    margin-top: -70px;
+    margin-bottom: -70px;
+  }
+
+  .bg-dark {
+    padding: 70px;
+    background-color: #2b2f41;
+    color: #fff;
+  }
+
+  .athor-content h1 {
+    font-size: 50px;
+    font-weight: 900;
+  }
+
+  .athor-content p {
+    font-size: 17px;
+    line-height: 30px;
+  }
+
+  .author {
+    position: relative;
+    font-size: 28px;
+    font-weight: 900;
+    display: block;
+    padding-left: 50px;
+    padding-top: 30px;
+  }
+
+  .author:before {
+    position: absolute;
+    content: "";
+    width: 35px;
+    height: 2px;
+    background-color: #fff;
+    top: 72%;
+    left: 0;
+  }
+
+  .author span {
+    font-size: 70%;
+    font-weight: normal;
+    color: #636772;
+    font-style: italic;
+  }
+
+  .margin-minas .btt {
+    margin-top: 40px;
+  }
+
+  .btt {
+    display: block;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    border: 2px solid #d8b276;
+    padding: 25px 40px;
+    width: 500px;
+  }
+
+  .btt:hover {
+    color: #fff;
+}
+
+.athor-content {
+    position: relative;
+    padding: 20px 40px;
+}
+
+.athor-content::before {
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 50px;
+    top: 0;
+    left: 0;
+    border-top: 2px solid #fff;
+    border-left: 2px solid #fff;
+}
+
+.athor-content::after {
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 50px;
+    right: 0;
+    bottom: 0;
+    border-bottom: 2px solid #fff;
+    border-right: 2px solid #fff;
+}
